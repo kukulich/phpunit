@@ -1097,15 +1097,6 @@
       <code>$this-&gt;testSuites</code>
     </PossiblyNullArrayOffset>
   </file>
-  <file src="src/TextUI/DefaultResultPrinter.php">
-    <MissingThrowsDocblock occurrences="2">
-      <code>parent::__construct($out)</code>
-      <code>stop</code>
-    </MissingThrowsDocblock>
-    <PossiblyInvalidPropertyAssignmentValue occurrences="1">
-      <code>$numberOfColumns</code>
-    </PossiblyInvalidPropertyAssignmentValue>
-  </file>
   <file src="src/TextUI/Help.php">
     <MissingClosureParamType occurrences="1">
       <code>$matches</code>
@@ -1114,6 +1105,15 @@
       <code>$option['desc']</code>
       <code>$option['desc']</code>
     </PossiblyUndefinedArrayOffset>
+  </file>
+  <file src="src/TextUI/ResultPrinter/OldResultPrinter.php">
+    <MissingThrowsDocblock occurrences="2">
+      <code>parent::__construct($out)</code>
+      <code>stop</code>
+    </MissingThrowsDocblock>
+    <PossiblyInvalidPropertyAssignmentValue occurrences="1">
+      <code>$numberOfColumns</code>
+    </PossiblyInvalidPropertyAssignmentValue>
   </file>
   <file src="src/TextUI/TestRunner.php">
     <DeprecatedMethod occurrences="6">
